@@ -124,4 +124,4 @@ Get Nexmo API Keys
 1.  Login to the Nexmo.
 
 2.  Click on the **Api Settings**. Key and Secret will display in the top bar as shown in the below image:
-	![](https://raw.githubusercontent.com/AdvaiyaLabs/AWSNotifier/master/docs/image18.jpeg)
+	![](https://raw.githubusercontent.com/AdvaiyaLabs/AWSNotifier/master/docs/image18.jpeg) 
