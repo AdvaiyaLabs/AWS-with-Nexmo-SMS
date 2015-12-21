@@ -22,7 +22,7 @@ For AWS cloud resources and applications, enable AWS Administrator to receive re
  - It supports Ubuntu operating systems (OS)
  - Compatible with any AWS service which is mapped to AWS SNS
 
-## Steps to deploy the AWS with Nexmo SMS app
+## Steps to deploy the AWS with Nexmo SMS
 To install the AWS with Nexmo SMS app on Ubuntu, follow the below steps:
 
 1.	Go to AWS Instance terminal ie. Putty or SSH
@@ -49,7 +49,7 @@ To install the AWS with Nexmo SMS app on Ubuntu, follow the below steps:
 ## AWS security settings
 1.	Login to the AWS Web Console.
 2.	Select EC2 Service.
-3.	On EC2 dashboard, select the EC2 instance where you have installed the Nexmo ** AWS with Nexmo SMS** app. 
+3.	On EC2 dashboard, select the EC2 instance where you have installed the Nexmo **AWS with Nexmo SMS** app. 
 4.	Click on the Security groups link as shown in the image below:
 	
 	<img src="https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS/blob/master/docs/image4.png" width=600>
@@ -62,7 +62,7 @@ To install the AWS with Nexmo SMS app on Ubuntu, follow the below steps:
 	<img src="https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS/blob/master/docs/image6.png" width=600>
 8. Click on **Save**
 
-## Steps to use the AWS with Nexmo SMS app
+## Steps to use the AWS with Nexmo SMS
 1.  Go to the browser and type **&lt;&lt;AWS Instance IP&gt;&gt;:9033** (replace AWS Instance IP with your instance public IP address).
 2.  Login with default credentials - username: **admin** and password: **admin.**
 3.  Click on **Login**.
