@@ -1,9 +1,9 @@
 # AWS with Nexmo SMS
 <img src="https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS/blob/master/docs/image1.jpeg" width="200">
 ## Introduction
-For system-wide visibility into AWS cloud resources and applications, user can leverage AWS messaging and monitoring services such as AWS Simple Notification Services (SNS) and AWS CloudWatch to get notification for critical events such as CPU usage, Disk usage, application performance etc. To receive such notifications as SMS on mobile, user can use the AWS with Nexmo SMS app that makes it easy to set up, operate, and send notifications from the AWS cloud. This app collects published messages from AWS service such as AWS SNS and immediately deliver them to subscriber’s mobile as SMS.
+For system-wide visibility into AWS cloud resources and applications, user can leverage AWS messaging and monitoring services such as AWS Simple Notification Services (SNS) and AWS CloudWatch to get notification for critical events such as CPU usage, Disk usage, application performance etc. To receive such notifications as SMS on mobile, user can use the AWS with [Nexmo SMS](https://ww.nexmo.com/sms) app that makes it easy to set up, operate, and send notifications from the AWS cloud. This app collects published messages from AWS service such as AWS SNS and immediately deliver them to subscriber’s mobile as SMS.
 
-AWS with Nexmo SMS is a web service which sends SMS using the Nexmo Messaging APIs. This service communicates with AWS SNS service and sends SMS notification to the configured phone number whenever the defined condition satisfies.
+AWS with [Nexmo SMS](https://ww.nexmo.com/sms) is a web service which sends SMS using the [Nexmo Messaging APIs](https://docs.nexmo.com/api-ref/sms-api). This service communicates with AWS SNS service and sends SMS notification to the configured phone number whenever the defined condition satisfies.
 
 ## Use Case
 For AWS cloud resources and applications, enable AWS Administrator to receive real-time SMS notifications wherever they are.
@@ -32,7 +32,7 @@ To install the AWS with Nexmo SMS app on Ubuntu, follow the below steps:
 	
 	**```git clone https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS.git```**
 	
-3.	Change the directory to the AWS with Nexmo SMS.
+3.	Change the directory to the AWS with [Nexmo SMS](https://ww.nexmo.com/sms).
 
 	**```cd AWS-with-Nexmo-SMS```**
 4.	Run the following command to install and configure the Nexmo services.
