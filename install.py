@@ -64,6 +64,6 @@ if __name__ == '__main__':
 			exit(1)
 		if distro in ['debian','ubuntu']:
 			install('apt-get',distro)
-			print OKGREEN + "GNotifier alert installed successfully." + ENDC
+			print OKGREEN + "AWS with Nexmo SMS installed successfully." + ENDC
 			
 		subprocess.call(['python {0}/manage.py runserver 0.0.0.0:9033 --insecure &'.format(get_current)],shell=True)
