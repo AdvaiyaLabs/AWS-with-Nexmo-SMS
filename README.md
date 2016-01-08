@@ -30,6 +30,8 @@ To install the AWS with Nexmo SMS app on Ubuntu, follow the below steps:
 
 	**```cd ~```** 
 	
+	**```sudo apt-get install git```** 
+	
 	**```git clone https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS.git```**
 	
 3.	Change the directory to the AWS with [Nexmo SMS](https://ww.nexmo.com/sms).
@@ -49,8 +51,8 @@ To install the AWS with Nexmo SMS app on Ubuntu, follow the below steps:
 ## AWS security settings
 1.	Login to the AWS Web Console.
 2.	Select EC2 Service.
-3.	On EC2 dashboard, select the EC2 instance where you have installed the Nexmo **AWS with Nexmo SMS** app. 
-4.	Click on the Security groups link as shown in the image below:
+3.	On EC2 dashboard, select the EC2 instance where you have installed the **AWS with Nexmo SMS** app. 
+4.	Click on the **Security groups** link as shown in the image below:
 	
 	<img src="https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS/blob/master/docs/image4.png" width=600>
 5.  Select **Inbound** and click on **Edit** as shown in the image below.
@@ -110,7 +112,7 @@ To install the AWS with Nexmo SMS app on Ubuntu, follow the below steps:
 	<img src="https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS/blob/master/docs/image17.png" width=600>
     
 	1.	Set the threshold to raise notification
-	2.	Select topic **NexmoSMS_Notification** from the **Send notification** to drop down menu.
+	2.	Select topic from the **Send notification to** drop down menu
 	3.	Click on **Create Alarm**
 7.	SMS will be received on the satisfaction of the condition.
 
@@ -121,7 +123,7 @@ Appendix
 Get Nexmo API Keys
 ------------------
 
-1.  Login to the Nexmo.
-
-2.  Click on the **Api Settings**. Key and Secret will display in the top bar as shown in the below image:
+- To access Nexmo keys, go to https://www.nexmo.com/ and Sign-in 
+- On the top right corner, click on the **Api Settings** 
+- Key and Secret will display in the top bar as shown in the below image:
 	![](https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS/blob/master/docs/image18.jpeg) 
