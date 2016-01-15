@@ -30,7 +30,7 @@ To install the AWS with Nexmo SMS app on Ubuntu, follow the below steps:
 
 	**```cd ~```** 
 	
-	**```sudo apt-get install git```** 
+	**```sudo apt-get install git -y```** 
 	
 	**```git clone https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS.git```**
 	
@@ -96,7 +96,7 @@ To install the AWS with Nexmo SMS app on Ubuntu, follow the below steps:
 7.  Click on **Create Subscription.**
 
 ## Configure Notification on AWS Cloudwatch
-1.  Select the **CloudWatch** service from the Menu.
+1.  Select the **CloudWatch** service from the Services Menu.
 
 	<img src="https://github.com/AdvaiyaLabs/AWS-with-Nexmo-SMS/blob/master/docs/image14.png" width=400> 
 2.  Click on the **Browse Metrics**.
